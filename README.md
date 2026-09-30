@@ -14,18 +14,6 @@ A Jupyter notebook that implements the main building blocks of credit risk measu
 | **4. Default correlation** | Gaussian one-factor copula, loss distribution, VaR and Expected Shortfall for ρ = 0, 0.2, 0.5 | Monte Carlo with common random numbers |
 | **5. Counterparty credit risk** | Exposure profile of a long call position, expected exposure, potential future exposure, CVA | Risk-neutral simulation, Monte Carlo vs closed-form check |
 
-## Selected results
-
-| Analysis |
-|---|---|
-| Beta calibration of 13 observed LGDs |
-| Portfolio of 10 loans, VaR 99% / 99.5% / 99.9% |
-| Merton model (equity 15,500, debt face value 40,000, σ_E = 18%) |
-| CDS on a CIR intensity (λ₀ = 0.25), 5-year protection |
-| One-factor copula, VaR 99% (ρ = 0 / 0.2 / 0.5) |
-| Long call position (100 options, strike 100, S(t₀) = 114.77) |
-
-
 ## References
 
 - T. Roncalli, *Handbook of Financial Risk Management*, CRC Press, 2020 (chapter 3, Credit Risk).
